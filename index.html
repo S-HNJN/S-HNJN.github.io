@@ -1,2 +1,223 @@
-<h1>Our Website</h1>
-<p style="color: blue;">반갑습니다!</p>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>송현준의 이력서</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            margin: 0;
+            background: #f7f7f9;
+            color: #1f1f1f;
+        }
+        .top-bar {
+            padding: 16px 24px;
+            background: #ffffff;
+            border-bottom: 1px solid #e2e2e6;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+        }
+        .top-bar-inner {
+            max-width: 960px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 24px;
+        }
+        .identity {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .avatar {
+            width: 150px;
+            height: 200px;
+            object-fit: contain;
+            object-position: center;
+            aspect-ratio: 3 / 4;
+            border-radius: 12px;
+            border: 1px solid #e2e2e6;
+            background: #eaeaea;
+        }
+        .name {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.2px;
+        }
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            align-self: flex-start;
+            gap: 10px;
+            font-size: 15px;
+        }
+        .contact-links {
+            display: flex;
+            gap: 16px;
+        }
+        .contacts a { 
+            color: #111111;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            font-size: 18px;
+        }
+        .contacts i {
+            font-size: 28px;
+            color: inherit;
+        }
+        .intro {
+            flex: 1;
+            text-align: center;
+            font-size: 16px;
+            color: #555555;
+            line-height: 1.6;
+            flex: 1;
+        }
+        .container {
+            max-width: 960px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .section {
+            margin: 32px 0;
+            padding: 24px;
+            background: #ffffff;
+            border: 1px solid #e2e2e6;
+            border-radius: 8px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1f1f1f;
+            margin: 0 0 16px 0;
+            border-bottom: 2px solid #1f5fbf;
+            padding-bottom: 8px;
+        }
+        .section-content {
+            color: #555555;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <div class="identity">
+                <img src="images/송현준.jpg" alt="송현준 사진" class="avatar">
+                <div class="name">송현준</div>
+            </div>
+            <div class="intro">
+                <span>저는 직면한 문제를 새로운 관점에서 접근하고 몰입하며, 실행 가능한 해결책을 고민/제안하는 것을 즐깁니다.</span>
+            </div>
+            <div class="contacts">
+                <div class="contact-links">
+                    <a href="https://github.com/S-HNJN" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" title="GitHub 바로가기"></i></a>
+                    <a href="mailto:songj428@gmail.com"><i class="fa-solid fa-envelope" title="Gmail 주소"></i></a>
+                </div>
+                <span>TEL : 010-9825-2325</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <div class="section-title">기술 스택</div>
+            <div class="section-content">
+                <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+                    <span style="background: #f0f0f0; padding: 6px 12px; border-radius: 4px; font-size: 14px;">SQL</span>
+                    <span style="background: #f0f0f0; padding: 6px 12px; border-radius: 4px; font-size: 14px;">HTML</span>
+                    <span style="background: #f0f0f0; padding: 6px 12px; border-radius: 4px; font-size: 14px;">CSS</span>
+                    <span style="background: #f0f0f0; padding: 6px 12px; border-radius: 4px; font-size: 14px;">Python</span>
+                    <span style="background: #f0f0f0; padding: 6px 12px; border-radius: 4px; font-size: 14px;">Excel</span>
+                    <span style="background: #f0f0f0; padding: 6px 12px; border-radius: 4px; font-size: 14px;">PowerAutomate</span>
+                    <span style="background: #f0f0f0; padding: 6px 12px; border-radius: 4px; font-size: 14px;">Arena</span>
+                    <span style="background: #f0f0f0; padding: 6px 12px; border-radius: 4px; font-size: 14px;">AnyLogic</span>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">경력</div>
+            <div class="section-content">
+                <div>
+                    <div style="font-weight: 600; color: #1f1f1f; margin-bottom: 4px;">(인턴) CJ Logistics America</div>
+                    <div style="font-size: 14px; color: #888;">2023.08 ~ 2024.07</div>
+                </div>
+            </div>
+        </div>
+                <div class="section">
+            <div class="section-title">교내활동</div>
+            <div class="section-content">
+                <div style="margin-bottom: 20px;">
+                    <div style="font-size: 15px; font-weight: 600; color: #1f5fbf; margin-bottom: 10px;">동아리</div>
+                    <div style="margin-bottom: 10px;">
+                        <div style="font-weight: 600; color: #1f1f1f; margin-bottom: 4px;">항공물류연구회(ReGAL)</div>
+                        <div style="font-size: 14px; color: #888;">2021.08 ~ 2022.04</div>
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <div style="font-weight: 600; color: #1f1f1f; margin-bottom: 4px;">농구 소모임 에이벳_abet</div>
+                        <div style="font-size: 14px; color: #888;">2019.03 ~ 2020.02</div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <div style="font-size: 15px; font-weight: 600; color: #1f5fbf; margin-bottom: 10px;">프로젝트</div>
+                    <div style="margin-bottom: 10px;">
+                        <div style="font-weight: 600; color: #1f1f1f; margin-bottom: 4px;">시스템 시뮬레이션</div>
+                        <div style="font-size: 14px; color: #888;">2024.09 ~ 2024.12</div>
+                    </div>
+                </div>
+                <div>
+                    <div style="font-size: 15px; font-weight: 600; color: #1f5fbf; margin-bottom: 10px;">공모전 수상</div>
+                    <div style="margin-bottom: 10px;">
+                        <div style="font-weight: 600; color: #1f1f1f; margin-bottom: 4px;">기업수요지향기술 종합설계 경진대회</div>
+                        <div style="font-size: 14px; color: #888;">동상 2024.12</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">대외활동</div>
+            <div class="section-content">
+                <div style="margin-bottom: 12px;">
+                    <div style="font-weight: 600; color: #1f1f1f; margin-bottom: 4px;">한국청년물류포럼</div>
+                    <div style="font-size: 14px; color: #888;">2022.05 ~ 2022.12</div>
+                </div>
+                <div>
+                    <div style="font-weight: 600; color: #1f1f1f; margin-bottom: 4px;">한진 로지덕스 서포터즈</div>
+                    <div style="font-size: 14px; color: #888;">2022.10 ~ 2022.12</div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">교육</div>
+            <div class="section-content">
+                <div style="margin-bottom: 16px;">
+                    <div style="font-weight: 600; color: #1f1f1f; margin-bottom: 4px;">인하대학교</div>
+                    <div style="font-size: 14px; color: #888;">2019.03 ~ 2025.08</div>
+                    <div style="margin-top: 4px;">아태물류학부 (주전공)</div>
+                    <div>산업경영공학과 (복수전공)</div>
+                </div>
+                <div>
+                    <div style="font-weight: 600; color: #1f1f1f; margin-bottom: 4px;">미추홀외국어고등학교</div>
+                    <div style="font-size: 14px; color: #888;">2015.03 ~ 2018.02</div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">외국어</div>
+            <div class="section-content">
+                <div style="margin-bottom: 8px;">
+                    <div style="font-weight: 600; color: #1f1f1f;">영어</div>
+                    <div>비즈니스 회화 중급</div>
+                    <div style="font-size: 14px; color: #888;">TOEIC SPEAKING IH(150)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
